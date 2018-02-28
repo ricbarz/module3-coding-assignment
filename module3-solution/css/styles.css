@@ -1,0 +1,57 @@
+#header-nav {
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	height: 100px;
+}
+
+.navbar-brand h1 {
+	color: white;
+	margin: 0;
+	margin-top: 15px;
+}
+
+.navbar-header .navbar-toggle {
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#toggle-links {
+	border: 0;
+}
+
+.navbar-collapse ul {
+	text-align: center;
+}
+
+#chicken {
+	background-color: #F2F2F2;
+	padding: 15px 15px;
+}
+
+.row {
+	margin-top: 40px;
+}
+
+.section-title {
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
+}
+
+
+/************************ XS VIEW *****************************/
+
+@media (max-width: 767px) {
+	#toggle-links {
+		background-color: orange;
+		}
+
+	.container {
+		width: 80%;
+	}
+}
